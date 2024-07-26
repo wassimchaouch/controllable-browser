@@ -18,6 +18,9 @@ https://github.com/zfcsoftware/puppeteer-real-browser/assets/123484092/bd8ca2b0-
 
  ![Contributors](https://img.shields.io/github/contributors/zfcsoftware/puppeteer-real-browser?color=dark-green) ![Forks](https://img.shields.io/github/forks/zfcsoftware/puppeteer-real-browser?style=social) ![Stargazers](https://img.shields.io/github/stars/zfcsoftware/puppeteer-real-browser?style=social) ![Issues](https://img.shields.io/github/issues/zfcsoftware/puppeteer-real-browser) ![License](https://img.shields.io/github/license/zfcsoftware/puppeteer-real-browser) 
 
+## Information
+
+Cloudflare has also started paying attention to mouse movements. Probably tracking mouse position for ip addresses with high spam scores. Since this library does not simulate mouse movements at the moment, you may experience captcha passing issues for proxies with high spam scores. This issue is under investigation and will be resolved soon. For now, it is recommended to use proxies with low spam score.
 
 ## Installation
 
@@ -38,7 +41,7 @@ sudo apt-get install xvfb
 
 ## Include
 
-### CommonJS
+### CommanJS
 
 ```js
 
@@ -178,8 +181,7 @@ Distributed under the MIT License. See [LICENSE](https://github.com/zfcsoftware/
 
 ## Thank You
 
-* **Skill Issue™** - [TheFalloutOf76](https://github.com/TheFalloutOf76) - *The library had stopped working on Linux servers and proxies with high spam scores. Thanks to the plugin he developed, this problem was solved. Thanks to him *
-
+* **Alptekin Gülcan** - [alpgul](https://github.com/alpgul) - *Contributed to targetFilter function*
 * **Jimmy Laurent** - [Jimmy Laurent](https://github.com/JimmyLaurent) - *Inspired by cloudflare-scraper library*
 * **CrispyyBaconx** - [CrispyyBaconx](https://github.com/CrispyyBaconx) - *Contributed to converting this library to Typescript*
 * **Pavle Aleksic** - [pavlealeksic](https://github.com/pavlealeksic) - *We change the fingerprint with the puppeteer-afp library.*
